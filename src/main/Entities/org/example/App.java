@@ -1,5 +1,7 @@
 package org.example;
 
+import Animals.Herbivorous.Buffalo;
+
 /**
  * Hello world!
  *

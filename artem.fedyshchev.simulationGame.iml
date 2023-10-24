@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Map" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
+    </content>
+  </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="713d0d8d-352e-4431-ac01-581e73fa5643" />
   </component>
