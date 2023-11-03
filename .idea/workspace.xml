@@ -5,14 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9a9cc8d-14bb-43c5-8008-f6c827b9b838" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Entities/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/domain/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/domain/entity/animal/herbivore/Buffalo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/domain/entity/animal/herbivore/Herbivorous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/domain/entity/animal/predator/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/domain/entity/animal/predator/Predator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/domain/entity/plant/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/domain/gameField/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/domain/gameField/GameField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/domain/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artem.fedyshchev.simulationGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/artem.fedyshchev.simulationGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Buffalo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Deer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Goat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Hog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Horse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Mouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Rabbit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Sheep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Herbivorous/Worm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Predator/Bear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Predator/Eagle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Predator/Fox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Predator/Snake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Predator/Wolf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Species/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Species/Herbivorous.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Animals/Species/Predator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/Plants/Plant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Entities/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Map/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Map/MapCell.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +49,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2XCw0SSGJ3qusjiUEaEWD3r7iyC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -37,14 +76,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "debugger.hotswap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/IdeaProjects/artem.fedyshchev.simulationGame/src/main/resources/config/entities/animals&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/config/entities/animals" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/config/entities" />
+      <recent name="$PROJECT_DIR$/src/main/Entities1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="artem.fedyshchev.simulationGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -1,0 +1,6 @@
+{
+    "weight": 700,
+    "maxAmountOnCell": 10,
+    "maxSpeed": 3,
+    "toBeFed": 100
+}
